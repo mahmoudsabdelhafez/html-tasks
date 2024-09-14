@@ -1,0 +1,14 @@
+body{
+    border: 1px solid ;
+    width: 1200px;
+    height: 1200px;
+    
+}
+
+fieldset {
+    border: 1px solid #000;
+}
+
+
+#message{ width: 150px;
+    height: 200px;}
