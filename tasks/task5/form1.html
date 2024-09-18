@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .box{
             width: 200px; 
@@ -18,9 +19,31 @@
             text-align: center;
             border-collapse: collapse;
         }
+
+        .task3{
+    border: 2px solid black;
+    width: 30%;
+}
+
+.task3-form{
+    margin: 10px;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.task6   tr td{
+width: 800px;
+padding: 5px;
+}
+
       
     </style>
 </head>
+
+        <!--task 1-->
+
 <body>
     <div class="box">
     <form action="/action_page.php">
@@ -35,6 +58,9 @@
         </form>
         </div>
 
+                <!--task 2-->
+
+
         <h2>Form</h2>
 
         <form action="/action_page.php">
@@ -44,10 +70,44 @@
             <input type="text" id="email" name="email" placeholder="your surname"><br>
             <label for="Email">Email:</label>
             <input type="text" id="email" name="email" placeholder="your email"><br>
+            <textarea id="message" name="message" rows="4" required required ></textarea>
+<br>
             <input type="submit" value="Send"> <br> <br>
             <a href="https://github.com/mahmoudsabdelhafez">Here is my githup</a> <br><br>
 
         </form>
+
+        <hr> <br> <br>
+
+
+        <!--task 3-->
+
+<div class="task3">
+<form class="task3-form" action="">
+    <label for="Name">Name:</label>
+    <input type="text" id="name" name="name" ><br> <br>
+    <label for="gender">gender:</label>
+    <input type="radio" id="gender" name="gender" >Male
+    <input type="radio" id="gender" name="gender" >Female<br> <br>
+    <label for="message">message:</label> <br>
+
+    <textarea id="message" name="message" rows="4" required required ></textarea> <br> <br>
+
+    <input type="checkbox" id="sub" name="sub" checked />
+    <label for="subscribe">subscribe</label> <br> <br>
+    <input type="submit" value="Send"> <br> <br>
+
+
+</form>
+
+</div>
+
+
+<hr> <br> <br>
+
+
+                <!--task 4-->
+
 
         <table>
             <tr>
@@ -55,17 +115,86 @@
             </tr>
             <tr>
                 <td>Email</td>
-                <td>  <input type="text" id="email" name="email" placeholder="email">
+                <td>  <input type="text" id="email" name="email" >
                 </td>
             </tr>
             <tr>
                 <td>Password</td>
-                <td> <input type="text" id="email" name="pass" placeholder="pass"></td>
+                <td> <input type="text" id="email" name="pass" ></td>
             </tr>
             <tr>
-                <td colspan="2">Sign In</td>
+                <td colspan="2">
+                     <input type="submit" value="Sign in">
+
+                </td>
             </tr>
         </table>
+
+        <hr> <br> <br>
+
+                <!--task 5-->
+
+
+        <iframe width="420" height="315" 
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+        <hr> <br> <br>
+                        <!--task 6-->
+
+
+        <label for="Name">First Name:</label>   <br>
+        <input type="text" id="name" name="name" ><br> <br>      
+        <label for="Name">Last Name:</label> <br>
+        <input type="text" id="name" name="name" ><br> <br>    
+        <input type="submit" value="Submit"> <br> <br>
+
+        <table class="task6">
+           <tr>
+            <td><b>Lorem, ipsum dolor. Lorem.</b></td>
+            <td><b>Lorem, ipsum dolor. Lorem.</b></td>
+            <td><b>Lorem, ipsum dolor. Lorem.</b></td>
+           </tr>
+
+
+           <tr class="silver">
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+           </tr>
+
+
+           <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+           </tr>
+
+
+           <tr class="silver">
+
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+           </tr>
+
+
+
+           <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+           </tr>
+
+
+           <tr class="silver">
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem, ipsum.</td>
+           </tr>
+
+        </table>
+      
 
 
 </body>
